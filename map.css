@@ -14,7 +14,7 @@ body{
   }
   @media  only screen and (max-width:460px){
     #map{
-      transform: scale(.68)!important;
+      transform: scale(.74)!important;
     
     }
   }
