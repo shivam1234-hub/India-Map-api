@@ -72,7 +72,8 @@ var simplemaps_countrymap_mapdata={
   },
   state_specific: {
     "1": {
-      name: "Andaman And Nicobar"
+      name: "Andaman And Nicobar",
+      hide:"yes"
     },
     "2": {
       name: "Andhra Pradesh"
