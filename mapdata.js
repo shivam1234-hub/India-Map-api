@@ -21,7 +21,7 @@ var simplemaps_countrymap_mapdata={
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 30,
+    location_size: 40,
     location_type: "image",
     location_image_source: "ead_logo.png",
     location_border_color: "#FFFFFF",
