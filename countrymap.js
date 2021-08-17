@@ -1,4 +1,10 @@
+/*Copyright 2010-2021 Simplemaps.com
+html5countrymapv4.13 - trial version
+Use pursuant to license agreement at https://simplemaps.com/license */
 
+/* shifty - v1.5.3 - http://jeremyckahn.github.io/shifty, embedded within map logic*/
+
+/* Raphaël 2.1.2 (tweaked, always global)- JavaScript Vector Library, Copyright © 2008-2016 Dmitry Baranovskiy (http://raphaeljs.com), Copyright © 2008-2016 Sencha Labs (http://sencha.com), Licensed under the MIT (http://raphaeljs.com/license.html) license. */
 ! function(t) {
     var e, f, p, a, d, g, x, y, m;
     t.eve = (e = "0.4.2", f = "hasOwnProperty", p = /[\.\/]/, a = function() {}, d = function(t, e) {
@@ -4692,7 +4698,7 @@ var simplemaps_countrymap_mapinfo = {
                     c = o.replaceAll(a, "'", '"'),
                     m = X ? s : l;
                 r && (m = "(function(){" + c + "})()");
-                var u1 = '<div class="tt_mobile_sm"><a tabindex="0" style="color:red!important ;text-decoration:none" onclick=swal({text:"hello",confirmButtonText:"Close",showCloseButton:"true",animation:"false"}) class="btn_simplemaps"  >More-Info</a></div>';
+                var u1 = '<div class="tt_mobile_sm"><a tabindex="0" class="btn_simplemaps" style="text-decoration:none;color:red" href="' + n + "\" onClick='" + m + "'>" + N + "</a></div>";
               
                 t.sm.on_click || (i = ""), "" != t.sm.url || t.sm.description_mobile ;
                 var p = "" == e ? p = "" : '<div class="tt_custom_sm"; />' + e + "</div>";

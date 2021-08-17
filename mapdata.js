@@ -1,8 +1,7 @@
-
 var simplemaps_countrymap_mapdata={
   main_settings: {
    //General settings
-    width: `500`, //'700' or 'responsive'
+    width: "500", //'700' or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
@@ -19,7 +18,7 @@ var simplemaps_countrymap_mapdata={
     //Location defaults
     location_description: "Location description",
     location_color: "#FF0067",
-    location_opacity: 1,
+    location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
     location_size: 30,
@@ -38,7 +37,7 @@ var simplemaps_countrymap_mapdata={
     label_font: "Arial",
     hide_labels: "no",
     hide_eastern_labels: "no",
-
+   
     //Zoom settings
     zoom: "yes",
     back_image: "no",
@@ -53,7 +52,7 @@ var simplemaps_countrymap_mapdata={
     
     //Popup settings
     popup_color: "white",
-    popup_opacity: 1,
+    popup_opacity: 0.9,
     popup_shadow: 1,
     popup_corners: 5,
     popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
@@ -71,47 +70,36 @@ var simplemaps_countrymap_mapdata={
     state_image_position: "",
     location_image_url: ""
   },
-  
   state_specific: {
     "1": {
-      name: "Andaman And Nicobar",
-      description: "custom d-1"
+      name: "Andaman And Nicobar"
     },
     "2": {
-      name: "Andhra Pradesh",
-      description: "custom d-2"
+      name: "Andhra Pradesh"
     },
     "3": {
-      name: "Arunachal Pradesh",
-      description: "custom d-3"
+      name: "Arunachal Pradesh"
     },
     "4": {
-      name: "Assam",
-      description: "custom d-4"
+      name: "Assam"
     },
     "5": {
-      name: "Bihar",
-      description: "custom d-5"
+      name: "Bihar"
     },
     "6": {
-      name: "Chandigarh",
-      description: "custom d-6"
+      name: "Chandigarh"
     },
     "7": {
-      name: "Chhattisgarh",
-      description: "custom d-7"
+      name: "Chhattisgarh"
     },
     "8": {
-      name: "Dadra And Nagar Haveli",
-      description: "custom d-8"
+      name: "Dadra And Nagar Haveli"
     },
     "9": {
-      name: "Daman And Diu",
-      description: "custom d-9"
+      name: "Daman And Diu"
     },
     "10": {
-      name: "Delhi",
-      description: "custom d-10"
+      name: "Delhi"
     },
     "11": {
       name: "Goa"
@@ -200,20 +188,13 @@ var simplemaps_countrymap_mapdata={
       lat: 18.987807,
       lng: 72.836447,
       name: "Mumbai",
-      description: "Ead-Mumbai"
+      url: "https://shivam1234-hub.github.io/India-Map-api#modal-opened"
     },
     "1": {
       lat: "27.0238",
       lng: "74.2179",
       name: "Rajasthan",
-      description: "Ead-Rajasthan",
-      
-    },
-    "2": {
-      lat: "22.5726",
-      lng: "88.3639",
-      name: "Kolkata",
-      description: "Ead-Kolkata"
+      url: "https://shivam1234-hub.github.io/India-Map-api#modal-open"
     }
   },
   labels: {},
