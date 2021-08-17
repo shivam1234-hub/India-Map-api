@@ -124,7 +124,8 @@ var simplemaps_countrymap_mapdata={
       name: "Kerala"
     },
     "19": {
-      name: "Lakshadweep"
+      name: "Lakshadweep",
+      hide:"yes"
     },
     "20": {
       name: "Madhya Pradesh"
