@@ -18,4 +18,15 @@ body{
     
     }
   }
+
+.btn_simplemaps{
+   background-color:white!important;
+   color:#020230!important;
+}
+.btn_simplemaps:hover{
+  color:white!important;
+  
+  background-color:#020230!important;
+}
+
   
