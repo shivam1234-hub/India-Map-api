@@ -4138,7 +4138,7 @@ var simplemaps_countrymap_mapinfo = {
                         }
                         Le = document.createElement("div");
                         var t = s || l ? "20px" : "5px";
-                        Le.style.cssText = "overflow: visible !important; clip-path: none !important; display:inline !important; opacity:1 !important; transform: none !important; visibility: visible !important; z-index: 1 !important; right: 5px !important; bottom:" + t + " !important; z-index: 1 !important; position: absolute !important; filter: opacity(1) !important;", _t.appendChild(Le), Le.innerHTML = '<a style="overflow: visible !important; clip-path: none !important; opacity: 0 !important;  filter: opacity(1) !important; transform: none !important; display: block !important; visibility: visible !important; font: 18px Verdana, Arial, Helvetica, sans-serif !important; cursor: pointer !important; font-weight: bold !important; float: right !important; color: #000000 !important; text-decoration: none !important;" href="https://simplemaps.com" title="For evaluation use only.">Simplemaps.com Trial</a>', 503 != Le.innerHTML.length && (_t.innerHTML = "")
+                      
                     }
             }
 
