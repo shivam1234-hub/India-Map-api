@@ -1,10 +1,4 @@
-/*Copyright 2010-2021 Simplemaps.com
-html5countrymapv4.13 - trial version
-Use pursuant to license agreement at https://simplemaps.com/license */
 
-/* shifty - v1.5.3 - http://jeremyckahn.github.io/shifty, embedded within map logic*/
-
-/* Raphaël 2.1.2 (tweaked, always global)- JavaScript Vector Library, Copyright © 2008-2016 Dmitry Baranovskiy (http://raphaeljs.com), Copyright © 2008-2016 Sencha Labs (http://sencha.com), Licensed under the MIT (http://raphaeljs.com/license.html) license. */
 ! function(t) {
     var e, f, p, a, d, g, x, y, m;
     t.eve = (e = "0.4.2", f = "hasOwnProperty", p = /[\.\/]/, a = function() {}, d = function(t, e) {
@@ -4098,7 +4092,7 @@ var simplemaps_countrymap_mapinfo = {
             }
 
             function _o() {
-                C = !(!_.background_image_url || "no" == _.background_image_url) && _.background_image_url, T = !!_.background_image_bbox && _.background_image_bbox, Y = "yes" == _.background_transparent ? 0 : 1, Q = _.label_size ? _.label_size : 22, _.label_color ? _.label_color : "#ffffff", X = "yes" == _.url_new_tab, U = _.location_opacity ? _.location_opacity : 1, "yes" == _.js_hooks, Z = _.border_size ? _.border_size : 1.5, G = _.popup_color ? _.popup_color : "#ffffff", P = _.popup_orientation ? _.popup_orientation : "auto", I = _.popup_centered ? _.popup_centered : "auto", K = _.popup_opacity ? _.popup_opacity : .9, $ = _.popup_shadow > -1 ? _.popup_shadow : 1, tt = _.popup_corners ? _.popup_corners : 5, et = "yes" == _.popup_nocss, J = !!_.popup_maxwidth && _.popup_maxwidth, ot = _.popup_font ? _.popup_font : "12px/1.5 Verdana, Arial, Helvetica, sans-serif", V = "no" != _.zoom_out_incrementally, W = _.adjacent_opacity ? _.adjacent_opacity : .3, S = _.zoom_time ? _.zoom_time : .5, O = _.zoom_increment ? _.zoom_increment : 2, B = "no" != _.zoom_mobile, D = _.fade_time ? 1e3 * _.fade_time : 200, q = i.labels, F = _.custom_shapes ? _.custom_shapes : {}, j = !(!_.initial_back || "no" == _.initial_back) && _.initial_back, H = "yes" == _.hide_eastern_labels, N = _.link_text ? _.link_text : "More-Info", !!_.order_number && _.order_number, R = _.zoom_percentage ? _.zoom_percentage : .99
+                C = !(!_.background_image_url || "no" == _.background_image_url) && _.background_image_url, T = !!_.background_image_bbox && _.background_image_bbox, Y = "yes" == _.background_transparent ? 0 : 1, Q = _.label_size ? _.label_size : 22, _.label_color ? _.label_color : "#ffffff", X = "yes" == _.url_new_tab, U = _.location_opacity ? _.location_opacity : 1, "yes" == _.js_hooks, Z = _.border_size ? _.border_size : 1.5, G = _.popup_color ? _.popup_color : "#ffffff", P = _.popup_orientation ? _.popup_orientation : "auto", I = _.popup_centered ? _.popup_centered : "auto", K = _.popup_opacity ? _.popup_opacity : .9, $ = _.popup_shadow > -1 ? _.popup_shadow : 1, tt = _.popup_corners ? _.popup_corners : 5, et = "yes" == _.popup_nocss, J = !!_.popup_maxwidth && _.popup_maxwidth, ot = _.popup_font ? _.popup_font : "12px/1.5 Verdana, Arial, Helvetica, sans-serif", V = "no" != _.zoom_out_incrementally, W = _.adjacent_opacity ? _.adjacent_opacity : .3, S = _.zoom_time ? _.zoom_time : .5, O = _.zoom_increment ? _.zoom_increment : 2, B = "no" != _.zoom_mobile, D = _.fade_time ? 1e3 * _.fade_time : 200, q = i.labels, F = _.custom_shapes ? _.custom_shapes : {}, j = !(!_.initial_back || "no" == _.initial_back) && _.initial_back, H = "yes" == _.hide_eastern_labels, N = _.link_text ? _.link_text : "More-Ifo", !!_.order_number && _.order_number, R = _.zoom_percentage ? _.zoom_percentage : .99
             }
 
             function ho(t) {
@@ -4698,10 +4692,11 @@ var simplemaps_countrymap_mapinfo = {
                     c = o.replaceAll(a, "'", '"'),
                     m = X ? s : l;
                 r && (m = "(function(){" + c + "})()");
-                var u = '<div class="tt_mobile_sm"><a tabindex="0" style="color:red!important ;text-decoration:none" class="btn_simplemaps"  >More-Info</a></div>';
-                t.sm.on_click || (i = "", u = ""), "" != t.sm.url || t.sm.description_mobile || (u = "");
+                var u1 = '<div class="tt_mobile_sm"><a tabindex="0" style="color:red!important ;text-decoration:none" onclick=swal({text:"hello",confirmButtonText:"Close",showCloseButton:"true",animation:"false"}) class="btn_simplemaps"  >More-Info</a></div>';
+              
+                t.sm.on_click || (i = ""), "" != t.sm.url || t.sm.description_mobile ;
                 var p = "" == e ? p = "" : '<div class="tt_custom_sm"; />' + e + "</div>";
-                return '<div class="tt_sm"><div>' + (!!t.sm.hide_name ? "" : '<div class="tt_name_sm">' + t.sm.name + "</div>") + i + '<div style="clear: both;"></div></div>' + p + u + "</div></div>"
+                return '<div class="tt_sm"><div>' + (!!t.sm.hide_name ? "" : '<div class="tt_name_sm">' + t.sm.name + "</div>") + i + '<div style="clear: both;"></div></div>' + p + u1 + "</div></div>"
             }
              function modal_show(){
                  alert("this is alert test")

@@ -1,7 +1,8 @@
+
 var simplemaps_countrymap_mapdata={
   main_settings: {
    //General settings
-    width: "550", //'700' or 'responsive'
+    width: `500`, //'700' or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
@@ -18,10 +19,10 @@ var simplemaps_countrymap_mapdata={
     //Location defaults
     location_description: "Location description",
     location_color: "#FF0067",
-    location_opacity: 0.8,
+    location_opacity: 1,
     location_hover_opacity: 1,
-    location_url: "http://127.0.0.1:5501/test1.html",
-    location_size: 25,
+    location_url: "",
+    location_size: 30,
     location_type: "circle",
     location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
@@ -52,7 +53,7 @@ var simplemaps_countrymap_mapdata={
     
     //Popup settings
     popup_color: "white",
-    popup_opacity: 0.9,
+    popup_opacity: 1,
     popup_shadow: 1,
     popup_corners: 5,
     popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
@@ -205,7 +206,8 @@ var simplemaps_countrymap_mapdata={
       lat: "27.0238",
       lng: "74.2179",
       name: "Rajasthan",
-      description: "Ead-Rajasthan"
+      description: "Ead-Rajasthan",
+      
     },
     "2": {
       lat: "22.5726",
