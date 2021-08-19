@@ -190,14 +190,14 @@ var simplemaps_countrymap_mapdata={
         lat: 18.987807,
         lng: 72.836447,
         name: "Mumbai",
-        url: "https://shivam1234-hub.github.io/India-Map-api#modal-opened",
+        url: "#modal-opened",
         description: "Ead-Mumbai"
       },
       "1": {
         lat: "27.0238",
         lng: "74.2179",
         name: "Rajasthan",
-        url: "https://shivam1234-hub.github.io/India-Map-api#modal-open",
+        url: "#modal-open",
         description: "Ead-Jaipur"
       }
     },
