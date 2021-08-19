@@ -4698,6 +4698,7 @@ var simplemaps_countrymap_mapinfo = {
                     c = o.replaceAll(a, "'", '"'),
                     m = X ? s : l;
                 r && (m = "(function(){" + c + "})()");
+                m="function(e){e.preventDefault();}"
                 var u1 = '<div class="tt_mobile_sm"><a tabindex="0" class="btn_simplemaps" style="text-decoration:none;color:red" href="' + n + "\" onClick='" + m + "'>" + N + "</a></div>";
               
                 t.sm.on_click || (i = ""), "" != t.sm.url || t.sm.description_mobile ;
