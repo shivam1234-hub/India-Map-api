@@ -40,8 +40,8 @@ a:link {
   padding: 4rem 2rem;
   border-radius: .8rem;
   color: hsl(0, 0%, 100%);
-  background: linear-gradient(to right bottom, #009FFF, #ec2F4B);
-  box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+  background: #060124;
+  box-shadow: 0rem 0rem 1rem .3rem hsla(230, 9%, 87%, 0.3);
   position: relative;
   overflow: hidden;
 }
