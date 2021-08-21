@@ -95,6 +95,8 @@ a:link {
   border-color: hsla(0, 0%, 100%, .6);
   -webkit-transform: translateY(-.2rem);
           transform: translateY(-.2rem);
+          color:black;
+          background-color:rgba(245, 240, 240, 0.884);
 }
 .link-1 {
   font-size: 1.8rem;
