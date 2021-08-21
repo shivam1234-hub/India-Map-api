@@ -89,6 +89,7 @@ a:link {
   letter-spacing: .2rem;
   transition: .2s;
   cursor: pointer;
+  font-family: sans-serif;
 }
 .btn-main-city:hover,
 .btn-main-city:focus {
