@@ -41,3 +41,7 @@ body{
   width:70%;
   margin-bottom:1em;
 }
+
+h1 ,p ,a{
+  font-family: sans-serif;
+}
